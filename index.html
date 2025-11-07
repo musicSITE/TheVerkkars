@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Verkkars</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="fluid"></canvas>
+
+<!-- 🔴 КНОПКИ ВВЕРХУ -->
+<div class="top-buttons">
+  <button>The Verkkars</button>
+  <button><a href="https://musicsite.github.io/MrLololoshka/">Lololoshka</a></button>
+  <button>ivanzolo</button>
+</div>
+
+<div class="container">
+  <div class="top-section">
+    <div class="unknown">UNKNOW</div>
+    <div class="title-block">
+      <h1>THE VERKKARS</h1>
+      <p><a href="https://www.youtube.com/@the_verkkars"> --> YouTube Channel <--</a></p>
+    </div>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">TheVerkkars - EZ4ENCE</span>
+    <span class="video-label"><a href="https://youtu.be/kPkT0jMjEu8?si=rDbde47AskTCLYfI"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/ez4ence.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">TheVerkkars - Fl. Dance</span>
+    <span class="video-label"><a href="https://youtu.be/MiPs_TNp_-w?si=e4xBO50bjtKbK5OH"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/fl-dance.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">TheVerkkars - Huutista</span>
+    <span class="video-label"><a href="https://youtu.be/jcE-x4Df0Aw?si=_eVww_YldCbCwJ5o"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/huutista.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">TheVerkkars - Winlandia</span>
+    <span class="video-label"><a href="https://youtu.be/lwa1TpaC1Z0?si=iDeSmj9Z6uET4YDn"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/winlandia.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">_The_Verkkars_ - MVP</span>
+    <span class="video-label"><a href="https://youtu.be/mewl5TnLRRE?si=hDOEpt5hb58uI-3v"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/mvp.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">TheVerkkars - God Mode</span>
+    <span class="video-label"><a href="https://youtu.be/FTW9yZ80kLY?si=HS3CN0k59g27OPxu"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/godmode.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">TheVerkkars - Jingle Dens</span>
+    <span class="video-label"><a href="https://youtu.be/WD3ZzpDc2TU?si=25eWxZfIYcBrwJxQ"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/jingledens.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</div>
+
+<footer>© 2025 The Verkkars Fan Page</footer>
+
+<script src="https://cdn.jsdelivr.net/gh/PavelDoGreat/WebGL-Fluid-Simulation/script.js"></script>
+
+<script>
+  const canvas = document.getElementById('fluid');
+  function resize() {
+    canvas.width = innerWidth;
+    canvas.height = innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+</script>
+
+</body>
+</html>
